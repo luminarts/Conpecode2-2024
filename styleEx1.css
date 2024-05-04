@@ -1,0 +1,50 @@
+body{
+    background-color: green;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    margin: 5%;
+    padding: 1%;
+    text-align: center;
+    
+}
+
+#content_boxes{
+    flex:1;
+    display: flex;
+    /* background-color: fuchsia; */
+    
+}
+
+#vertical_boxes {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+  }
+
+  .div_box_childs {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:5px;
+  }
+
+#div_box2{
+    background-color: aquamarine;
+    padding: 10%;
+}
+
+#div_box3{
+    background-color: purple;
+    padding: 10%;
+}
+
+#div_box4{
+    background-color: yellow;
+    
+}
